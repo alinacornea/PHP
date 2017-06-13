@@ -44,4 +44,5 @@ Custom column output names: SELECT [column] AS [custom-column] FROM [table];
 Export a database dump (more info here): mysqldump -u [username] -p [database] > db_backup.sql
 Use --lock-tables=false option for locked tables (more info here).
 Import a database dump (more info here): mysql -u [username] -p -h localhost [database] < db_backup.sql
+ 
 Logout: exit;
