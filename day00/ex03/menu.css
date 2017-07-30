@@ -1,0 +1,93 @@
+
+h1{
+  font-family: "Apple Chancery", cursive;
+}
+
+body{
+  background-image: url(resources/coffe.jpg);
+}
+
+.coffee{
+    width: 427px;
+    height: 270px;
+    top: 400px;
+}
+.cheese
+{
+  top: 500px;
+  position: absolute;
+}
+#menu
+{
+	margin-top:15px
+}
+
+#menu ul
+{
+	list-style:none;
+	position:relative;
+	float:right;
+	margin:10px;
+	padding:30px;
+}
+
+#menu ul a
+{
+	display:inline;
+	color:#000000;
+	text-decoration:none;
+  text-transform: uppercase;
+	font-weight:900;
+	font-size:18px;
+	line-height:32px;
+	padding:0 15px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#menu ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#menu ul li:hover
+{
+	background: #FFE4C4;
+}
+
+#menu ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:none;
+	padding:0
+}
+
+#menu ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#menu ul ul a
+{
+	line-height:120%;
+	padding:10px 15px;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  font-size:15px;
+}
+
+#menu ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#menu ul li:hover > ul
+{
+	display:block
+}
