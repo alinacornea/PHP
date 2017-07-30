@@ -1,24 +1,23 @@
 #!/usr/bin/php
 <?php
-echo "Enter a number: ";
-$stdin = fopen ('php://stdin', 'r');
-while(1)
-{
-	$var = fgets($stdin);
-	$line = trim($var);
-	if ($var[0] != "0" && !$line)
-	{
-		echo "^D\n";
-		exit ();
-	}
-	if (!is_numeric($line))
-		echo "'$line' is not a number\n";
-	else{
-		if ($line % 2 == 0)
-			echo "The number $line is even\n";
-		else
-			echo "The number $line is odd\n";
-	}
-	echo "Enter a number: ";
-  }
+    $fd = fopen("php://stdin", "r");
+    while (true) {
+        echo "Enter a number: ";
+        $line = fgets($fd);
+        if (!$line) {
+            echo "\n";
+            exit();
+        }
+        $line = trim($line);
+        if (!is_numeric($line)) {
+            echo "'$line' is not a number\n";
+        }
+        else {
+            $nb = intval($line);
+            if ($nb % 2 == 0)
+                echo "The number $nb is even\n";
+            else
+								echo "The number $nb is odd\n";
+        }
+    }
 ?>
