@@ -115,8 +115,8 @@ header img{
 }
 
 .book{
-	height: 87px;
-	width: 55px;
+	height: 90px;
+	width: 65px;
 }
 
 .towel{
@@ -140,27 +140,40 @@ header img{
 	left: -42px;
 	padding-left: 10px;
 	background-color: #88FF89;
-	font-family: Times;
+	font-family:Tahoma;
+	font-weight: lighter;
 }
 
 .greenboard p{
-   font-size: 21px;
+    font-size: 16px;
     margin-bottom: 0;
     margin-top: 0;
-}
-.bold{
-	font-size: 37px;
+		color: #202020;
+		letter-spacing: 1px;
 }
 
-.txtsha{
-text-shadow: 7px 7px 5px rgba(255, 77, 49, 1);
+.entrez{
+	font-size: 37px;
+	font-family: Giorgia;
+}
+
+.txtshadow{
+text-shadow: 7px 6px 5px rgba(255, 25, 52, 1);
 }
 
 .italic{
-	    font-size: 20px !important;
+	  font-size: 15px;
     font-style: italic;
 }
 
 .txt{
+	border-top-color:	#787878;
 	width: 380px;
+}
+
+.sub{
+	letter-spacing: 1px;
+	background-color:#E8E8E8;
+	font-size: 12px;
+	border-radius: 3px;
 }
