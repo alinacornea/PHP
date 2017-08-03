@@ -11,7 +11,7 @@ else
 		print ($a + $c);
 	if ($b == "-")
 		print ($a - $c);
-	if ($b == "*")
+	if ($b == "*" || $b == "do_op.php")
 		print ($a * $c);
 	if ($b == "/")
 		print ($a / $c);

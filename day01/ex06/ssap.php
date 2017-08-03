@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 function ft_split($data){
-	$s = preg_split('/\s+/', $data);
+	$s = preg_split('/\s+/', $data, -1, PREG_SPLIT_NO_EMPTY);
 	return ($s);
 }
 $e = array();
